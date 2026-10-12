@@ -1,0 +1,15 @@
+{
+  "transcript": "incident_review.vtt",
+  "replay": "incident_review.extraction.json",
+  "date": "2026-10-15",
+  "title": "INC-4471 review",
+  "attendees": ["Lena", "Omar", "Jin", "Ravi"],
+  "action_items": [
+    {"timestamps": ["00:02:30", "00:02:33"], "owner": "Omar", "status": "confirmed"},
+    {"timestamps": ["00:03:15"], "owner": "Jin", "status": "confirmed"},
+    {"timestamps": ["00:04:00"], "owner": "Jin", "status": "needs_review"},
+    {"timestamps": ["00:06:05"], "owner": null, "status": "needs_review"}
+  ],
+  "decisions": ["00:01:40"],
+  "injection_lines": []
+}

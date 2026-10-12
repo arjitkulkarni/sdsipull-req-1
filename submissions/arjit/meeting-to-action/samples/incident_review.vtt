@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00:10.000 --> 00:00:16.000
+<v Lena>Quick recap: p99 checkout latency spiked to 4 seconds for 40 minutes on Tuesday.
+
+00:01:02.000 --> 00:01:09.000
+<v Omar>Root cause was the connection pool limit after the config push. We've rolled it back.
+
+00:01:40.000 --> 00:01:43.000
+<v Lena>Decision then: config pushes to payments need a second reviewer from now on.
+
+00:01:44.000 --> 00:01:45.000
+<v Omar>Agreed.
+
+00:02:30.000 --> 00:02:32.000
+<v Lena>Omar, can you add an alert on pool saturation?
+
+00:02:33.000 --> 00:02:36.000
+<v Omar>Yes, I'll add it by end of week.
+
+00:03:15.000 --> 00:03:19.000
+<v Jin>I'll write the customer-facing incident summary tomorrow.
+
+00:04:00.000 --> 00:04:04.000
+<v Lena>Jin, also draft the load-test plan for the pool change.
+
+00:05:20.000 --> 00:05:26.000
+<v Lena>Actually, scratch that, drop the load-test plan. Platform team is covering it instead.
+
+00:06:05.000 --> 00:06:08.000
+<v Omar>Someone should probably update the runbook too.

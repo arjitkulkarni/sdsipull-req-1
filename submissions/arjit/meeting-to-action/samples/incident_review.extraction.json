@@ -1,0 +1,48 @@
+{
+  "_note": "Hand-written stand-in for the model's structured output. Item 5 is deliberately fabricated (its quote is not in the transcript) to show the verifier blocking a hallucination.",
+  "decisions": [
+    {
+      "summary": "Config pushes to payments need a second reviewer from now on",
+      "evidence": {"timestamp": "00:01:40", "speaker": "Lena", "quote": "config pushes to payments need a second reviewer from now on"}
+    }
+  ],
+  "action_items": [
+    {
+      "task": "Add an alert on connection-pool saturation",
+      "owner_mentioned": "Omar",
+      "owner_candidates": [],
+      "due_text": "by end of week",
+      "evidence": {"timestamp": "00:02:30", "speaker": "Lena", "quote": "Omar, can you add an alert on pool saturation?"}
+    },
+    {
+      "task": "Write the customer-facing incident summary",
+      "owner_mentioned": "Jin",
+      "owner_candidates": [],
+      "due_text": "tomorrow",
+      "evidence": {"timestamp": "00:03:15", "speaker": "Jin", "quote": "I'll write the customer-facing incident summary tomorrow."}
+    },
+    {
+      "task": "Draft the load-test plan for the pool change",
+      "owner_mentioned": "Jin",
+      "owner_candidates": [],
+      "due_text": null,
+      "evidence": {"timestamp": "00:04:00", "speaker": "Lena", "quote": "Jin, also draft the load-test plan for the pool change."}
+    },
+    {
+      "task": "Update the runbook",
+      "owner_mentioned": null,
+      "owner_candidates": [],
+      "due_text": null,
+      "evidence": {"timestamp": "00:06:05", "speaker": "Omar", "quote": "Someone should probably update the runbook too."}
+    },
+    {
+      "task": "Schedule the postmortem with the payments VP",
+      "owner_mentioned": "Ravi",
+      "owner_candidates": [],
+      "due_text": "on Monday",
+      "evidence": {"timestamp": "00:06:30", "speaker": "Lena", "quote": "Ravi will set up the postmortem with the VP on Monday"}
+    }
+  ],
+  "open_questions": [],
+  "suspected_injections": []
+}

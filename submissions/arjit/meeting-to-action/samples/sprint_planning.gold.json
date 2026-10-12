@@ -1,0 +1,15 @@
+{
+  "transcript": "sprint_planning.txt",
+  "replay": "sprint_planning.extraction.json",
+  "date": "2026-10-12",
+  "title": "Sprint planning",
+  "attendees": ["Priya", "Marcus", "Dana", "Sam"],
+  "action_items": [
+    {"timestamps": ["00:02:18"], "owner": "Marcus", "status": "confirmed"},
+    {"timestamps": ["00:03:05", "00:03:09"], "owner": null, "status": "needs_review"},
+    {"timestamps": ["00:04:40"], "owner": "Sam", "status": "needs_review"},
+    {"timestamps": ["00:06:12", "00:06:15"], "owner": "Dana", "status": "confirmed"}
+  ],
+  "decisions": ["00:02:10", "00:05:30"],
+  "injection_lines": ["00:05:02"]
+}
